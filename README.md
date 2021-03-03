@@ -1,4 +1,4 @@
-# 树莓派官方系统换源
+# 树莓派换系统软件源和pip源
 ```shell
 apt install git -y
 git clone https://github.com/cyz0105/raspberry_pi_change_source_list.git

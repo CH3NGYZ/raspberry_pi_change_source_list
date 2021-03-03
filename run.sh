@@ -164,7 +164,12 @@ else
   echo "Upgrade action cancellation"
 fi
 echo "[OK] The source was replaced successfully."
-
+mkdir /root/.pip
+cd /root/.pip
+echo "[global]
+timeout = 6000
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+trusted-host = pypi.tuna.tsinghua.edu.cn" >pip.conf
 
 
 

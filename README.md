@@ -1,3 +1,6 @@
+暂时用不到树莓派，本项目暂停。
+
+
 # 树莓派换系统软件源和pip源
 ```shell
 apt install git -y
